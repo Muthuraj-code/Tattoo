@@ -1,0 +1,277 @@
+/*div{
+  background-color: #bae8e8;
+  /*margin-top: 0;
+  margin-right: 0;
+  margin-left: 0;
+}*/
+body {
+  margin: auto;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+}
+
+h1 {
+  font-family: 'Sacramento', cursive;
+  font-size: 3.625rem;
+  margin: 50px auto 0 auto;
+  color: #F012BE;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  padding-bottom: 10px;
+}
+
+.wg {
+
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+a {
+
+}
+img{
+  width: 50%;
+  height: 200px;
+}
+.footer-link{
+  color: #11999E;
+  padding: 25px;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+}
+a:hover{
+  color: #EAf6f6;
+}
+.copyright {
+  color: #EAf6f6;
+  font-size: 0.75rem;
+}
+p {
+  font-family: 'Montserrat', sans-serif;
+  color: #B10DC9;
+}
+
+.mainPic{
+  width: 250px;
+  height: 250px;
+  border-radius: 20%;
+}
+.top-contain {
+
+  background-color: #110011;
+  position: relative;
+  padding-top: 0;
+
+}
+
+.middle-contain {
+background-color: #16161d;
+}
+
+.bottom-contain {
+
+  background-color: #66BFBF;
+  margin-top: 0;
+  padding: 30px;
+}
+
+.top-cloud {
+  position: absolute;
+  width: 150px;
+  height: 100px;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+  width: 150px;
+  height: 100px;
+}
+
+.Skill-image {
+  /*height: 200px;
+  width: 200px;*/
+  border-radius: 50%;
+  width: 25%;
+  float: left;
+  margin: 30px;
+}
+
+.Skill-images {
+  border-radius: 50%;
+  width: 25%;
+  float: right;
+  margin: 30px;
+}
+
+.myPic {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.skill-row {
+  margin: 100px auto;
+  width: 50%;
+  text-align: left;
+  line-height: 2;
+}
+
+.lines {
+  border: dotted #EAf6f6 6px;
+  border-bottom: none;
+  margin: 100px auto;
+  width: 4%;
+}
+
+.contact-me {
+  padding-top: 0;
+  line-height: 2;
+  width: 50%;
+  display: inline-block;
+  padding-bottom: 20px;
+}
+
+.btn{
+  background: #11CDD4;
+  background: -webkit-gradient(top, #11CDD4, #11999E);
+  background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+  background-image: linear-gradient(to bottom, #11CDD4, #11999E);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 20px;
+  color: #FFFFFF;
+  font-family: 'Merriweather', serif;
+  font-size: 20px;
+  font-weight: 100;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+
+}
+
+.btn:hover {
+  border: solid #337FED 1px;
+  background: #30EC6B;
+  background: -webkit-gradient(top, #30E36B, #2BC4AD);
+  background-image: -webkit-linear-gradient(top, #30E36B, #2BC4AD);
+  background-image: -moz-linear-gradient(top, #30E36B, #2BC4AD);
+  background-image: -ms-linear-gradient(top, #30E36B, #2BC4AD);
+  background-image: -o-linear-gradient(top, #30E36B, #2BC4AD);
+  background-image: linear-gradient(to bottom, #30E36B, #2BC4AD);
+  text-decoration: none;
+}
+
+* {box-sizing: border-box}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  position:
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.prev {
+  left: 0;
+  border-radius: 3px 0 0 3px;
+}
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}

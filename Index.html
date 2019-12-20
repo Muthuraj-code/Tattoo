@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Muthuraj</title>
+  <link rel="stylesheet" href="CSS/Styles.css">
+  <link rel="icon" href="favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento&display=swap" rel="stylesheet">
+  <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> -->
+</head>
+
+<body>
+  <div class="top-contain">
+  <div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 11</div>
+    <img  src="Images/Tattoo0.jpg" style="width:100%">
+    <div class="text">Caption Text</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 11</div>
+    <img  src="Images/Tattoo3.jpg" style="width:100%">
+    <div class="text">Caption Text</div>
+  </div>
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 11</div>
+    <img  src="Images/Tattoo4.jpg" style="width:100%">
+    <div class="text">Caption Text</div>
+  </div>
+  <div class="mySlides fade">
+    <div class="numbertext">4 / 11</div>
+    <img  src="Images/Tattoo5.jpg" style="width:100%">
+    <div class="text">Caption Text</div>
+  </div>
+  <div class="mySlides fade">
+    <div class="numbertext">5 / 11</div>
+    <img  src="Images/Tattoo6.jpg" style="width:100%">
+    <div class="text">Caption Text</div>
+  </div>
+  <div class="mySlides fade">
+    <div class="numbertext">6 / 11</div>
+    <img  src="Images/Tattoo7.jpg" style="width:100%">
+    <div class="text">Caption Text</div>
+  </div>
+
+
+
+  <div class="mySlides fade">
+    <div class="numbertext">7 / 11</div>
+    <img  src="Images/Tattoo13.jpg" style="width:100%">
+    <div class="text">Caption Text</div>
+  </div>
+  <div class="mySlides fade">
+    <div class="numbertext">8 / 11</div>
+    <img  src="Images/Tattoo14.jpg" style="width:100%">
+    <div class="text">Caption Text</div>
+  </div>
+  <div class="mySlides fade">
+    <div class="numbertext">9 / 11</div>
+    <img  src="Images/Tattoo15.jpg" style="width:100%">
+    <div class="text">Caption Text</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">10 / 11</div>
+    <img src="Images/Tattoo2.jpg" style="width:100%">
+    <div class="text">Caption Two</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">11 / 11</div>
+    <img src="Images/Tattoo1.jpg" style="width:100%">
+    <div class="text">Caption Three</div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+</div>
+
+
+    <!-- <img class="top-cloud" src="Images/tattoo18.jpg" alt="cloud-image"> -->
+    <h1 >I'm Rakshith Shetty</h1>
+    <h2 class="wg">A tattoo Artist</h2>
+    <!-- <img class="bottom-cloud" src="Images/Tattoo17.png" alt="cloud-image"> -->
+    <img  class="mainPic" src="Images/Tattoo16.jpg" alt="mountain-image">
+  </div>
+    <div class="middle-contain">
+      <div class="profile">
+        <img class="myPic" src="Images/Tattoo5.jpg" alt="my-pic">
+        <h2>Hello.</h2>
+        <p>Am a tatto artist with a backgroung of 100% customer satisfaction </p>
+      </div>
+      <hr class ="lines">
+      <div class="skills">
+        <h2>My Skills.</h2>
+        <div class="skill-row">
+          <img class="Skill-image" src="Images\Tattoo12.jpg" alt="skillImage">
+          <h3>Potrait Tattoo</h3>
+          <p>You want any of your loved once face on your body, just come with passion and love it’s my duty to portray that love.</p>
+        </div>
+        <div class="skill-row">
+          <img class="Skill-images" src="Images\Tattoo1.jpg" alt="skil">
+          <h3 >Design on the Spot.</h3>
+          <p>Confused with what design to get as tattoo, am here to help you with on spot design and suggestions on of your interest.</p>
+        </div>
+      </div>
+      <hr class ="lines">
+      <div class="contact-me">
+        <h2>Get In Touch</h2>
+        <h3>Dont forget to leave a message.</h3>
+        <p>Plan to visit me just leave me with a message so i can prepare something for you in advance.</p>
+        <a class="btn" href="mailto:name@email.com" >CONTACT ME</a>
+
+      </div>
+    </div>
+
+
+    <div class="bottom-contain">
+      <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+      <a class="footer-link" href="https://twitter.com/">Twitter</a>
+      <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+      <p class="copyright">© 2019 RS.</p>
+    </div>
+
+    <script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+</body>
+
+</html>
